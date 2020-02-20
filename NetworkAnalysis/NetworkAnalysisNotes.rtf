@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red51\green51\blue51;\red102\green102\blue102;\red0\green112\blue32;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c20000\c20000\c20000;\csgenericrgb\c40000\c40000\c40000;\csgenericrgb\c0\c43922\c12549;
+}
+\margl1440\margr1440\vieww13860\viewh15000\viewkind0
+\deftab720
+\pard\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\pardeftab720\ri0\sl278\partightenfactor0
+
+\f0\fs23 \cf2 \
+Cd desktop\
+Cd NetworkAnalysis\
+source cs499\cf3 /\cf4 bin\cf3 /\cf2 activate \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\fs28 \cf0 Monday - Read\
+Tuesday - Read\
+Wednesday - Class\
+Thursday - Quiz | Lab \
+Friday -  Quiz | Lab\
+Saturday -  Quiz | Lab\
+Sunday -  Quiz | Lab\
+\
+Network Theory Course \'97 Systems Innovation on YouTube\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul \ulc0 Network - \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone A group of interconnected nodes
+\f2\b \ul \
+
+\f1\b0 \ulnone 	- Individual parts that connect to each other \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul Complex Systems - \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone 	Complex System - a series of things that is composed of many interconnected parts\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0  - Behind each complex system there is a network that defines the interactions between the components \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \
+Components = any set of nodes that are linked, or any node that is not linked to any other nodes, within a given 			network, if you have 15 links you have 30 nodes, 20 links, 40 nodes and so on\'85\
+Interactions = Links represented by (L)\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul Node Degree -
+\f1\b0 \ulnone \
+ The number of links connected to the node \
+	denoted with \'93k\'94\
+		Average degree is calculated not with one single node but with the entire graph \
+			denoted by <k>\
+	Degree Distribution:\
+		p(k) probability that a randomly chosen node has degree k \
+		Hubs: any node that has way more degrees than any other nodes, they fall below the line of 				regression and are thus placed at the bottom of the distribution graph			\
+			\
+	Discrete representation - p_k is the probability that a node has degree k \
+	Continuum Description - p(k) is the pdf (probability distribution) of the degrees \
+	Normalization condition - where k_min is the minimal degree in the network \
+\
+\
+
+\f2\b \ul Pathology -
+\f1\b0 \ulnone \
+\
+Path - a sequence of nodes on which each node is adjacent to the next node \
+\
+The 
+\f2\b distance (shortest path, geodesic path)
+\f1\b0  between two nodes is defined as the number of edges along the shortest path connected them \
+	*if two nodes are disconnected, the distance is infinity \
+\
+In directed graphs each path needs to follow the direction of the arrows, thus in a digraph the distance from node A to node B is generally different from the distance from node B to node A \
+\
+	- N_ij is the number of paths between any two nodes i and j:\
+	\
+Diameter - the maximum distance between any pair of nodes in the graph\
+			**It is the longest shortest path between any pair of nodes \
+\
+Average path length / distance, denoted <d>\
+\
+Cycle - a path with the same start and end node\
+Self Avoiding Path - a path that does not intersect with itself \
+Eulerian Path - A path the traverses each link exactly once \
+Hamiltonian Path - A path that visits each node exactly once \
+\
+Bridge - A link that creates a connection with two sub components \
+\
+Triadic Closure - a group of three nodes that are all connected to each other \'97 looks like a triangle \
+\
+Triangles are a fully connected structure \
+\
+Embeddedness - number of common neighbors shared by two endpoints of an edge \
+\
+If the ebmeddedness of two nodes is zero its more than likely a bridge \
+\
+\
+Ex:\
+- A network of size 80 where each node has degree of k = 1.  How many components comprise the network?\
+	Answer: 40\
+\
+The whole system is represented by nodes and links ( N , L )\
+\
+Network often refers to a real system, a graph is a mathematical representation of a network\
+		Graphs: directed vs undirected, represented as arrows in the graph \'97 in undirected we don\'92t 			know how the interactions work but in directed we are given an idea as to how they do.\
+\
+\
+
+\f2\b \ul Weighted and Unweighted Networks - \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone Weighted - Weights can represent a characteristic of the links beyond the actual existence of the link\
+Unweighted - No further information about each of the links other than that it exists \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul Bipartite Networks - \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone A graph whose nodes can be divided into two disjoint sets\
+	Two different sets of graphs, each set is not connected at all, but there are links to the nodes between 	the two different sets, if more than one separate node is connected to the same node in the other set 	then those two nodes are thought of as connected \
+\
+	Example: Graph 1 - Actors || Graph 2 - Movies \'97 the bipartite connection is the different movies that 	might include multiple actors who would not be otherwise connected\
+\
+	Example 2: Open source projects and contributors \
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul Random Networks\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone A random graph is a graph of N nodes where each pair of nodes is connected by probability p\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul 4 Phases\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone Each phase is called a regime \
+\
+I: Subcritical regime\
+	average degree value is less than one \
+\
+II: Critical regime \
+	average degree value is 1\
+\
+III: Supercritical regime\
+	average degree value is greater than one  \
+\
+IV: Connected \
+	average degree value is greater than ln(N)\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Why would you want to know about the paths in a network?\
+- In the context of city streets as a network you would want to know the shortest path from point A to point B so you can get to your destination quicker\
+\
+\
+What are some implications about always being close to hubs?\
+With respect to <d> the distance of the network will be on average, much smaller\
+\
+With respect to network growth / evolution: the network will grow much more slowly as it pertains to how spread out it is. It will be much more clustered around the hub\
+\
+}
