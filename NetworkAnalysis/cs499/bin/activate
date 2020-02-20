@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/tylerplihcik/Desktop/NetworkAnalysis/cs499"
+VIRTUAL_ENV="/Users/tylerplihcik/Desktop/AdvancedNetworkAnalysis-/NetworkAnalysis/cs499"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

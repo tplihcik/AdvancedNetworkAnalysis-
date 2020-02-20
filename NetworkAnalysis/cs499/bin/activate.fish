@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/tylerplihcik/Desktop/NetworkAnalysis/cs499"
+set -gx VIRTUAL_ENV "/Users/tylerplihcik/Desktop/AdvancedNetworkAnalysis-/NetworkAnalysis/cs499"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
